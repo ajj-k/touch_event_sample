@@ -16,6 +16,8 @@
 		2A1F53B629156E3700B3656A /* touch_eventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F53B529156E3700B3656A /* touch_eventTests.swift */; };
 		2A1F53C029156E3700B3656A /* touch_eventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F53BF29156E3700B3656A /* touch_eventUITests.swift */; };
 		2A1F53C229156E3700B3656A /* touch_eventUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F53C129156E3700B3656A /* touch_eventUITestsLaunchTests.swift */; };
+		2A1F53CF29156EA700B3656A /* StampResouces in Resources */ = {isa = PBXBuildFile; fileRef = 2A1F53CE29156EA700B3656A /* StampResouces */; };
+		2A1F53D12915736900B3656A /* dragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F53D02915736900B3656A /* dragViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2A1F53BB29156E3700B3656A /* touch_eventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = touch_eventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1F53BF29156E3700B3656A /* touch_eventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touch_eventUITests.swift; sourceTree = "<group>"; };
 		2A1F53C129156E3700B3656A /* touch_eventUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touch_eventUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A1F53CE29156EA700B3656A /* StampResouces */ = {isa = PBXFileReference; lastKnownFileType = folder; path = StampResouces; sourceTree = "<group>"; };
+		2A1F53D02915736900B3656A /* dragViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,10 @@
 				2A1F53A229156E3300B3656A /* ViewController.swift */,
 				2A1F53A429156E3300B3656A /* Main.storyboard */,
 				2A1F53A729156E3700B3656A /* Assets.xcassets */,
+				2A1F53CE29156EA700B3656A /* StampResouces */,
 				2A1F53A929156E3700B3656A /* LaunchScreen.storyboard */,
 				2A1F53AC29156E3700B3656A /* Info.plist */,
+				2A1F53D02915736900B3656A /* dragViewController.swift */,
 			);
 			path = touch_event;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 				2A1F53AB29156E3700B3656A /* LaunchScreen.storyboard in Resources */,
 				2A1F53A829156E3700B3656A /* Assets.xcassets in Resources */,
 				2A1F53A629156E3300B3656A /* Main.storyboard in Resources */,
+				2A1F53CF29156EA700B3656A /* StampResouces in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1F53D12915736900B3656A /* dragViewController.swift in Sources */,
 				2A1F53A329156E3300B3656A /* ViewController.swift in Sources */,
 				2A1F539F29156E3300B3656A /* AppDelegate.swift in Sources */,
 				2A1F53A129156E3300B3656A /* SceneDelegate.swift in Sources */,
